@@ -1,13 +1,59 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  
+	--font-size-sm: clamp(0.8rem, 0.17vw + 0.76rem, 0.89rem);
+	--font-size-base: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
+	--font-size-md: clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem);
+	--font-size-lg: clamp(1.56rem, 1vw + 1.31rem, 2.11rem);
+	--font-size-xl: clamp(1.95rem, 1.56vw + 1.56rem, 2.81rem);
+	--font-size-xxl: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
+	--font-size-xxxl: clamp(3.05rem, 3.54vw + 2.17rem, 5rem);
+
+	--color-main: hsl(252, 75%, 60%);
+	--color-main-900: hsl(248, 77%, 24%);
+	--color-main-800: hsl(248, 69%, 31%);
+	--color-main-700: hsl(250, 63%, 40%);
+	--color-main-600: hsl(251, 56%, 50%);
+	--color-main-500: hsl(252, 75%, 60%);
+	--color-main-400: hsl(253, 80%, 71%);
+	--color-main-300: hsl(255, 86%, 77%);
+	--color-main-200: hsl(256, 92%, 86%);
+	--color-main-100: hsl(18, 87%, 94%);
+
+	--color-dark: hsl(0, 0%, 13%);
+	--color-dark-400: hsl(210, 2%, 18%);
+	--color-dark-300: hsl(180, 1%, 26%);
+	--color-dark-200: hsl(180, 1%, 33%);
+	--color-dark-100: hsl(150, 1%, 41%);
+
+	--color-grey-dark: hsl(0, 0%, 20%);
+	--color-grey-dark-400: hsl(0, 0%, 27%);
+	--color-grey-dark-300: hsl(0, 0%, 34%);
+	--color-grey-dark-200: hsl(0, 0%, 41%);
+	--color-grey-dark-100: hsl(0, 0%, 47%);
+
+	--color-grey: hsl(0, 0%, 60%);
+	--color-grey-400: hsl(0, 0%, 65%);
+	--color-grey-300: hsl(0, 0%, 71%);
+	--color-grey-200: hsl(0, 0%, 76%);
+	--color-grey-100: hsl(0, 0%, 82%);
+	
+	--color-light-400: hsl(0, 0%, 95%);
+	--color-light-300: hsl(0, 0%, 95%); 
+	--color-light-200: hsl(0, 0%, 95%);
+	--color-light-100: hsl(0, 0%, 96%);
+	--color-light: hsl(0, 0%, 100%);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app {
+  background-color: transparent;
+  min-height: 100vh;
+  display: flex;
+  font-size: var(--font-size-md);
+  color: var(--color-light);
 }
+
+
