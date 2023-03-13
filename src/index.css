@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 :root {
   
 	--font-size-sm: clamp(0.8rem, 0.17vw + 0.76rem, 0.89rem);
@@ -48,10 +50,13 @@
 	--color-light: hsl(0, 0%, 100%);
 }
 
+*{
+    font-family: "Poppins", Sans-serif;
+}
+
 .app {
   background-color: transparent;
   min-height: 100vh;
-  display: flex;
   font-size: var(--font-size-md);
   color: var(--color-light);
 }
@@ -118,7 +123,6 @@
     
     #mobile-menu {
         display: block;
-        transform: translate(5%, 20%);
         cursor: pointer;
     }
     
@@ -136,6 +140,11 @@
         transform: translateY(-8px) rotate(-45deg);
     
     }
+}
+
+.section-container {
+    height: calc(100vh - 80px);
+    width: 100%;
 }
 
 
