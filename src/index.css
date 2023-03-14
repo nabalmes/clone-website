@@ -116,7 +116,7 @@
         height: 3px;
         margin: 5px auto;
         transition: all 0.3s ease-in-out;
-        background-color: #5a5a68;
+        background-color: #AC74E7;
         display: block;
         cursor: pointer;
     }
@@ -145,6 +145,22 @@
 .section-container {
     height: calc(100vh - 80px);
     width: 100%;
+}
+
+
+.page>* {
+	animation: slide-up .75s forwards, fade-in .5s forwards;
+}
+
+
+@keyframes slide-up {
+	0% {
+		transform: translateY(100%);
+	}
+
+	100% {
+		transform: translateY(0%);
+	}
 }
 
 
