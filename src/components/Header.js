@@ -18,16 +18,16 @@ export const Header = () => {
             </Link>
             <div className=" w-full flex justify-between items-center max-md:justify-end">
                 <nav className=" w-full flex gap-[10px] flex-wrap justify-center text-sm font-bold max-md:hidden">
-                    <NavLink to='/'> How It Works</NavLink>
+                    <NavLink to='/'>Home</NavLink>
                     <NavLink to='/Component2'>Getting Started</NavLink>
                     <NavLink to='/Component3'>About Us</NavLink>
-                    <NavLink to='/Component4'>Resources</NavLink>
+                    <NavLink to='/Component4'>Shop Now</NavLink>
                     <NavLink to='/Component5'>Videos</NavLink>
                     <NavLink to='/Component6'>Contact</NavLink>
                 </nav>
                 <div className="gap-[1rem] flex justify-between items-center">
-                    <div className="min-w-[120px] font-medium max-sm:hidden">
-                        <Link className="flex justify-center items-center gap-[5px] text-sm" to='tel:+03 9014 1414' title="contact"><AiFillPhone className="cursor-pointer text-2xl text-[#AC74E7]" /> 03 9014 1414 </Link>
+                    <div className="min-w-[max-content] font-medium max-sm:hidden">
+                        <Link className="flex justify-center items-center gap-[5px] text-sm" to='tel:+63 9666 640 405' title="contact"><AiFillPhone className="cursor-pointer text-2xl text-[#AC74E7]" /> 63 9666 640 405 </Link>
                     </div>
                     <button className="max-sm:hidden min-w-[110px] flex gap-1.5 justify-center items-center bg-button-color hover:bg-button-color-hover py-[14px] px-[5px] text-sm text-white rounded"><RiFileUserLine />Book a Call</button>
                     <div onClick={navToggle} className={`navbar__toggle ${isActive ? "is-active" : ""}`} id="mobile-menu">
@@ -46,7 +46,7 @@ export const Header = () => {
                 <NavLink onClick={navToggle} to='/Component6' className='navbar__link'>Contact</NavLink>
                 <div className="gap-[1rem] flex justify-around items-center w-full">
                     <div className="min-w-[120px] hidden font-medium max-sm:block">
-                        <Link className="flex justify-center items-center gap-[5px] text-sm" to='tel:+03 9014 1414' title="contact"><AiFillPhone className="cursor-pointer text-2xl text-[#AC74E7]" /> 03 9014 1414 </Link>
+                        <Link className="flex justify-center items-center gap-[5px] text-sm" to='tel:+63 9666 640 405' title="contact"><AiFillPhone className="cursor-pointer text-2xl text-[#AC74E7]" /> 63 9666 640 405 </Link>
                     </div>
                     <button className="max-sm:flex min-w-[110px] hidden gap-1.5 justify-center items-center bg-button-color hover:bg-button-color-hover py-[14px] px-[5px] text-sm text-white rounded"><RiFileUserLine />Book a Call</button>
                 </div>
