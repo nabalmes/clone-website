@@ -11,7 +11,7 @@ export const Component1 = () => {
                     <h1 className="text-center text-6xl font-semibold text-[#050547] tracking-[3px] max-md:text-5xl max-sm:text-4xl">  Building</h1>
                     <h1 className="text-center text-6xl font-semibold text-[#050547] tracking-[3px] max-md:text-5xl max-sm:text-4xl"> Virtual Teams</h1>
                 </div>
-                <button className="text-xl min-w-[250px] bg-button-color hover:bg-button-color-hover font-base py-[10px] px-[20px] text-sm text-white rounded">Book a Call</button>
+                <button className="text-xl min-w-[250px] bg-button-color hover:bg-button-color-hover font-base py-[10px] px-[20px] text-sm text-white rounded">Shop Now!</button>
             </div>
             <div className="page h-full w-2/4 flex justify-center items-center max-md:w-full max-md:h-2/4 z-[2]">
                 <div className="w-full px-6 py-10 max-md:w-3/4 max-md:py-5 max-[576px]:w-full">
@@ -27,7 +27,7 @@ export const Component1 = () => {
             </div>
             <div className="w-full absolute bottom-0">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                        <path fill="#ffffff" fill-opacity="1" d="M0,288L1440,128L1440,320L0,320Z"></path>
+                        <path fill="#ffffff" fillOpacity="1" d="M0,288L1440,128L1440,320L0,320Z"></path>
                     </svg>
             </div>
         </section>
