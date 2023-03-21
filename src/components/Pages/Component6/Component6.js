@@ -8,7 +8,7 @@ export const Component6 = () => {
                 <h1 className="text-6xl font-semibold text-center">Contact Us</h1>
                 {/* <div className="w-full absolute bottom-0">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                        <path fill="#ffffff" fill-opacity="1" d="M0,288L1440,128L1440,320L0,320Z"></path>
+                        <path fill="#ffffff" fillOpacityity="1" d="M0,288L1440,128L1440,320L0,320Z"></path>
                     </svg>
                 </div> */}
             </div>
